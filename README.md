@@ -1,12 +1,12 @@
 otto-recommender-system
 ==============================
 
-This is the solution to https://www.kaggle.com/c/otto-recommender-system challenge 
+This is the solution to https://www.kaggle.com/c/otto-recommender-system challenge.
 
-I used cookiecutter for project organization as can be seen below:
+I used cookiecutter for project organization as can be seen below. For more information on cookiecutter, please visit https://drivendata.github.io/cookiecutter-data-science/
 
-Project Organization
-------------
+
+# Project Organization
 
     ├── LICENSE
     ├── Makefile           <- Makefile with commands like `make data` or `make train`
@@ -55,5 +55,22 @@ Project Organization
 
 
 --------
+# Setup
+
+    $ git clone https://github.com/nimadehkordi/otto-recommender.git
+    $ cd otto-recommender
+    $ pip install -r requirements.txt
+
+# Download data from kaggle
+
+    $ cd data/raw 
+    $ kaggle competitions download -c otto-recommender-system
+
+# Run the code
+    
+    $ cd src/models
+    $ python train_model.py
+        
+     
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
