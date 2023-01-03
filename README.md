@@ -3,6 +3,8 @@ otto-recommender-system
 
 This is the solution to https://www.kaggle.com/c/otto-recommender-system challenge 
 
+I used cookiecutter for project organization as can be seen below:
+
 Project Organization
 ------------
 
